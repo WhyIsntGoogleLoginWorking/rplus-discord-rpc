@@ -21,14 +21,14 @@ jobs:
       run: nuget locals all -clear
 
     - name: Restore NuGet packages
-      run: nuget restore "Rhythm Plus Discord RPC.sln"
+      run: nuget restore "Server\Rhythm Plus Discord RPC.sln"
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v2
 
     - name: Build solution
       run: |
-        msbuild "Rhythm Plus Discord RPC.sln" `
+        msbuild "Server\Rhythm Plus Discord RPC.sln" `
           /p:Configuration=Release `
           /p:Platform="Any CPU" `
           /p:RestorePackages=false `
