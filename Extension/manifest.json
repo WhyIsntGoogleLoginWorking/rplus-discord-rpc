@@ -1,6 +1,6 @@
 {
     "name": "Rhythm Plus Discord RPC - By Splamei",
-    "description": "Allows showing information about Rhythm Plus in your DiscordRPC",
+    "description": "Show that your playing Rhythm Plus in Discord",
     "version": "1.0",
     "manifest_version": 3,
     "permissions": [ "storage", "scripting", "tabs" ],
