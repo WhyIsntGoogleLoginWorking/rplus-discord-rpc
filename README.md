@@ -1,3 +1,4 @@
+[![Build](https://github.com/WhyIsntGoogleLoginWorking/rplus-discord-rpc/actions/workflows/build.yml/badge.svg)](https://github.com/WhyIsntGoogleLoginWorking/rplus-discord-rpc/actions/workflows/build.yml)
 
 # Rhythm Plus DiscordRPC
 This is an app and extension that allows you to play the [Rhythm Plus music game](https://rhythm-plus.com) in your web browser and show others that you're playing the game within Discord via Rich Prescence and optionally showing some stats about your game!
